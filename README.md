@@ -36,8 +36,8 @@ All exceptions derive from Throwable:
         +-------+        +-----------+
         | Error |        | Exception |
         +-------+        +-----------+
-         /  |  \          /  |        \
-       \________/	      \______/        \
+         /  |  \          /   |      \
+       \________/	      \______/      \
         unchecked        checked  +------------------+
                                   | RuntimeException |
                                   +------------------+
